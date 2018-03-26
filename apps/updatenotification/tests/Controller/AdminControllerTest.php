@@ -116,6 +116,7 @@ class AdminControllerTest extends TestCase {
 				'updateVersion' => '8.1.2',
 				'downloadLink' => 'https://downloads.nextcloud.org/server',
 				'updaterEnabled' => true,
+				'versionIsEol' => false,
 			]);
 
 		$params = [
@@ -126,6 +127,7 @@ class AdminControllerTest extends TestCase {
 			'newVersionString' => '8.1.2',
 			'downloadLink' => 'https://downloads.nextcloud.org/server',
 			'updaterEnabled' => true,
+			'versionIsEol' => false,
 			'notify_groups' => 'admin',
 		];
 
